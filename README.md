@@ -1,1 +1,53 @@
 # Logistic Regression
+Logistic regression is one of the most popular machine learning algorithms for binary classification. This is because it is a simple algorithm that performs very well on a wide range of problems.
+
+### Logistic Function
+Before we dive into logistic regression, let’s take a look at the logistic function, the heart of the logistic regression technique.
+
+The logistic function is defined as: transformed = 1 / (1 + e^-x)
+Where e is the numerical constant Euler’s number and x is a input we plug into the function.
+
+### Logistic Regression Assumptions
+1.Data is free of missing values
+
+2.the predicant variable is binary(only accepts two values) or ordinal(a categorical variable with ordered values)
+
+3.All predictors independent of each others
+
+4.there at least 50 observations per predictor variable(to ensure reliable results)
+
+5.The independent variables should be independent of each other. That is, the model should have little or no multicollinearity.
+
+### Logistic Regression Model
+The logistic regression model takes real-valued inputs and makes a prediction as to the probability of the input belonging to the default class (class 0).
+If the probability is > 0.5 we can take the output as a prediction for the default class (class 0), otherwise the prediction is for the other class (class 1).
+
+
+## Comparing Logistic Regression with Other Models
+
+### Advantages of logistic regression:
+1.Highly interpretable (if you remember how)
+
+2.Model training and prediction are fast
+
+3.No tuning is required (excluding regularization)
+
+4.Features don't need scaling
+
+5.Can perform well with a small number of observations
+
+6.Outputs well-calibrated predicted probabilities
+
+### Disadvantages of logistic regression:
+1.Presumes a linear relationship between the features and the log-odds of the response
+
+2.Performance is (generally) not competitive with the best supervised learning methods
+
+3.Can't automatically learn feature interactions
+
+## RESOURCES:
+1.https://machinelearningmastery.com/logistic-regression-tutorial-for-machine-learning/
+
+2.http://nbviewer.jupyter.org/github/justmarkham/DAT8/blob/master/notebooks/12_logistic_regression.ipynb
+
+3.http://nbviewer.jupyter.org/github/rasbt/python-machine-learning-book/blob/master/code/bonus/logistic_regression.ipynb
